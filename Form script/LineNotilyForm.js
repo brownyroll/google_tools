@@ -16,7 +16,7 @@ sendLineNotify(msg);
 }
 
 function sendLineNotify(message) {
-var token = ["LSIvQsIolJkosyvLpH6YjBqW65M9caiLlXy5X6UlSKB"]; // ***ใส่ token ของกลุ่ม Line ที่ใช้งาน***
+var token = [""]; // ***ใส่ token ของกลุ่ม Line ที่ใช้งาน***
 var options = {
 "method": "post",
 "payload": "message=" + message,
